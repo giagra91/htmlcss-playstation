@@ -1,0 +1,14 @@
+.my-blue-box{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+}
+
+#top-header{
+    background-color: black;
+    height: 100%;
+}
+
+#header-logo{
+    height: 35px;
+}
