@@ -41,3 +41,7 @@ section#jumbotron{
     background-size: cover;
     background-position: center;
 }
+
+#new-games{
+    background-color: rgb(34, 34, 34);
+}
