@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 header{
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -34,11 +38,13 @@ section#jumbotron{
     background-position: center;
 }
 
-#returnal-img{
+#returnal-img,
+#ps-plus-img,
+#ps-now-img{
     width: 60%;
 }
 
-#central-jumbotron{
+#central-banner{
     width: auto;
     height: 600px;
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
@@ -49,3 +55,12 @@ section#jumbotron{
 #new-games{
     background-color: rgb(34, 34, 34);
 }
+
+#playstation-plus{
+    background-color: rgb(190, 188, 187);
+}
+
+#playstation-now{
+    background-color: rgb(22, 28, 59);
+}
+
