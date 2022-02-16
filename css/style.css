@@ -11,10 +11,12 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.my-blue-box{
-    width: 100%;
-    height: 50px;
-    background-color: blue;
+footer{
+    background-color: rgb(0, 67, 156);
+}
+
+.ps-logo-footer{
+    width: 25%;
 }
 
 #top-header{
@@ -64,3 +66,6 @@ section#jumbotron{
     background-color: rgb(22, 28, 59);
 }
 
+#language{
+    width: 5%;
+}
