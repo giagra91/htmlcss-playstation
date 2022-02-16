@@ -40,9 +40,7 @@ section#jumbotron{
     background-position: center;
 }
 
-#returnal-img,
-#ps-plus-img,
-#ps-now-img{
+.my-col-image{
     width: 60%;
 }
 
