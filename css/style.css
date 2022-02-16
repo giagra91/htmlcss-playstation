@@ -22,6 +22,10 @@ footer{
     height: 35px;
 }
 
+#search-img{
+    width: 65%;
+}
+
 section#jumbotron{
     width: auto;
     height: 500px;
