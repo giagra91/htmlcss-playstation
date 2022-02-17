@@ -39,7 +39,7 @@ footer{
 
 section#jumbotron{
     width: auto;
-    height: 500px;
+    height: 600px;
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: center;
