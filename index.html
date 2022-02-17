@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,9 +30,9 @@
         </div>
 
         <!-- Header inferiore con barra di navigazione -->
-        <div class="container-fluid" id="bottom-header">
+        <div class="container-fluid px-0" id="bottom-header">
 
-            <nav class="navbar navbar-expand-lg navbar-light ">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img class="navbar-brand" src="img/play_logo.svg" alt="Ps logo">
@@ -90,7 +90,9 @@
                         </li>
 
                         <li class="nav-item">
-                            <button type="button" class="btn btn-dark rounded-pill">Accedi</button>
+                            <div class="my-btn-dark">
+                                <button type="button" class="btn btn-dark rounded-pill border border-2 border-light">Accedi</button>
+                            </div>
                         </li>
 
                         <li class="nav-item align-middle position-relative">
@@ -122,9 +124,10 @@
                             <p class="text-white pb-3">
                                 Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.
                             </p>
-                            <button class="btn btn-danger rounded-pill">
+                            <button class="btn btn-danger rounded-pill my-btn-danger ">
                                 Acquista ora
                             </button>
+
                         </div>                 
                     </div>
                 
@@ -136,27 +139,29 @@
         <section class="my-5 px-sm-4" id="game-cards">
             <div class="container-fluid">
                 <div class="row gy-4">
-                    <div class="col-6 col-sm-4 col-md-4 col-xl-2">
-                        <img class="img-fluid rounded-3" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal image">
+                    <div class="col-6 col-sm-4 col-md-4 col-xl-2 position-relative my-moving-top-cards">
+                        <div class="my-border-blue">
+                            <img class="img-fluid rounded-3 border border-3 border-light" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal image">
+                        </div>
                     </div>
 
-                    <div class="col-6 col-sm-4 col-md-4 col-xl-2">
+                    <div class="col-6 col-sm-4 col-md-4 col-xl-2 position-relative my-moving-top-cards">
                         <img class="img-fluid rounded-3" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet-and-clank image image">
                     </div>
 
-                    <div class="col-6 col-sm-4 col-md-4 col-xl-2">
+                    <div class="col-6 col-sm-4 col-md-4 col-xl-2 position-relative my-moving-top-cards">
                         <img class="img-fluid rounded-3" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal image">
                     </div>
 
-                    <div class="col-6 col-sm-4 col-md-4 col-xl-2">
+                    <div class="col-6 col-sm-4 col-md-4 col-xl-2 position-relative my-moving-top-cards">
                         <img class="img-fluid rounded-3" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet-and-clank image image">
                     </div>
 
-                    <div class="col-6 col-sm-4 col-md-4 col-xl-2">
+                    <div class="col-6 col-sm-4 col-md-4 col-xl-2 position-relative my-moving-top-cards">
                         <img class="img-fluid rounded-3" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal image">
                     </div>
 
-                    <div class="col-6 col-sm-4 col-md-4 col-xl-2">
+                    <div class="col-6 col-sm-4 col-md-4 col-xl-2 position-relative my-moving-top-cards">
                         <img class="img-fluid rounded-3" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet-and-clank image image">
                     </div>
                 </div>
@@ -200,29 +205,32 @@
                 </div>
             </div>
 
-            
-            <div class="row row-cols-3 row-cols-sm-3 row-cols-md-5 my-4 px-4">
-                <div class="col text-center border-bottom border-primary border-3">
-                    <img class="img-fluid" src="img/playstation-5-thumb.png" alt="PS5 image">
-                    <h6 class="d-none d-sm-none d-md-block ">Console PS5</h6>
+            <div class="px-4 my-4">
+                <div class="row row-cols-3 row-cols-sm-3 row-cols-md-5 gx-4">
+                    <div class="col text-center border-bottom border-primary border-3">
+                        <img class="img-fluid" src="img/playstation-5-thumb.png" alt="PS5 image">
+                        <h6 class="d-none d-sm-none d-md-block ">Console PS5</h6>
+                    </div>
+                    <div class="col text-center opacity-50">
+                        <img class="img-fluid" src="img/joypad-thumb.png" alt="Joypad image">
+                        <h6 class="d-none d-sm-none d-md-block ">Controller Wirelles DualSense</h6>
+                    </div>
+                    <div class="col text-center opacity-50">
+                        <img class="img-fluid" src="img/headset-thumb.png" alt="Headset image">
+                        <h6 class="d-none d-sm-none d-md-block ">Cuffie Wireless con microfono PULSE 3</h6>
+                    </div>
+                    <div class="col text-center opacity-50">
+                        <img class="img-fluid" src="img/remote-thumb.png" alt="Remote image">
+                        <h6 class="d-none d-sm-none d-md-block ">Telecomando Media</h6>
+                    </div>
+                    <div class="col text-center opacity-50">
+                        <img class="img-fluid" src="img/camera-thumb.jpg" alt="Camera image">
+                        <h6 class="d-none d-sm-none d-md-block ">Telecamera HD</h6>
+                    </div>
                 </div>
-                <div class="col text-center opacity-50">
-                    <img class="img-fluid" src="img/joypad-thumb.png" alt="Joypad image">
-                    <h6 class="d-none d-sm-none d-md-block ">Controller Wirelles DualSense</h6>
-                </div>
-                <div class="col text-center opacity-50">
-                    <img class="img-fluid" src="img/headset-thumb.png" alt="Headset image">
-                    <h6 class="d-none d-sm-none d-md-block ">Cuffie Wireless con microfono PULSE 3</h6>
-                </div>
-                <div class="col text-center opacity-50">
-                    <img class="img-fluid" src="img/remote-thumb.png" alt="Remote image">
-                    <h6 class="d-none d-sm-none d-md-block ">Telecomando Media</h6>
-                </div>
-                <div class="col text-center opacity-50">
-                    <img class="img-fluid" src="img/camera-thumb.jpg" alt="Camera image">
-                    <h6 class="d-none d-sm-none d-md-block ">Telecamera HD</h6>
-                </div>
+
             </div>
+
         </section>
 
         <!-- Banner centrale -->
