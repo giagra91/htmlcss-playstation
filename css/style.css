@@ -130,8 +130,19 @@ section#jumbotron{
 
 
 /* MEDIA QUERY PER MY-CARD SEZIONE SOCIAL */
+/* Media query "XS" <575.8px */
+@media screen and (max-width: 575.8px){
+    .my-text-center{
+        text-align: center;
+    }
+}
+
 /* Media query "SM" >576px */
 @media screen and (min-width: 576px){
+    .my-text-center{
+        text-align: center;
+    }
+
     .my-card{
         width: calc(25% - 40px);
     }
@@ -139,6 +150,11 @@ section#jumbotron{
 
 /* Media query "MD" >768px */
 @media screen and (min-width: 768px){
+
+    .my-text-center{
+        text-align: left;
+    }
+
     .my-card{
         width: calc(20% - 40px);
     }
@@ -146,6 +162,10 @@ section#jumbotron{
 
 /* Media query "LG" >1200px */
 @media screen and (min-width: 1200px){
+    .my-text-center{
+        text-align: left;
+    }
+    
     .my-card{
         width: calc((100% / 8) - 40px);
     }
