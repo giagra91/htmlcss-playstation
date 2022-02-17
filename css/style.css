@@ -73,6 +73,10 @@ footer{
     width: 60%;
 }
 
+.my-ps5-image{
+    width: 100%;
+}
+
 .my-card{
     width: calc(50% - 40px);
     margin: 20px;
@@ -135,12 +139,20 @@ section#jumbotron{
     .my-text-center{
         text-align: center;
     }
+
+    .my-ps5-image{
+        width: 100%;
+    }
 }
 
 /* Media query "SM" >576px */
 @media screen and (min-width: 576px){
     .my-text-center{
         text-align: center;
+    }
+
+    .my-ps5-image{
+        width: 100%;
     }
 
     .my-card{
@@ -155,6 +167,10 @@ section#jumbotron{
         text-align: left;
     }
 
+    .my-ps5-image{
+        width: 60%;
+    }
+
     .my-card{
         width: calc(20% - 40px);
     }
@@ -165,7 +181,11 @@ section#jumbotron{
     .my-text-center{
         text-align: left;
     }
-    
+
+    .my-ps5-image{
+        width: 60%;
+    }
+
     .my-card{
         width: calc((100% / 8) - 40px);
     }
